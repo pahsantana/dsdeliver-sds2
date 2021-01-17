@@ -7,7 +7,7 @@ export default function Header() {
   const navigation = useNavigation();
   
   const handleOnPress = () =>{
-    navigation.navigate('Orders');   
+    navigation.navigate('Home');   
   }
 
   return (
